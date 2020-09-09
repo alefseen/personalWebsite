@@ -1,0 +1,34 @@
+// breakPoints
+$mobileBreakPoint: 460px;
+$tabletBreakPoint: 680px;
+$desktopBreakPoint: 1080px;
+
+/* colors */
+$primaryColor: #5b61ff;
+$primaryText: #333333;
+$primaryWhite:#fff;
+$seconderyWhite: #fafafa;
+$seconderyText:#777777;
+/* typography */
+$defaultFont:'Vazir';
+$bodySize:16px;
+$titleSize:18px;
+$smallSize:13px;
+$bigSize:22px;
+$biggerSize:36px;
+$biggestSize:50px;
+
+/* borderRadius */
+$buttonBorderRadius: 20px;
+/* spacings */
+
+/* lineHeights */
+$normalLineHeight: 1.5;
+
+$transitionTime:.5s;
+
+:export{
+    primaryColor:$primaryColor;
+    seconderyWhite:$seconderyWhite;
+    primaryWhite:$primaryWhite;
+}

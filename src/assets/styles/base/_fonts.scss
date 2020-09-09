@@ -1,0 +1,10 @@
+@import "~assets/styles/libs/vars";
+/* basic font styles */
+* {
+  font-family: $defaultFont, sans-serif;
+  font-weight: normal;
+  direction: rtl;
+}
+*[dir=ltr]{
+  direction: ltr;
+}
