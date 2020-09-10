@@ -9,28 +9,55 @@
       position: fixed;
       padding: 10vh 5%;
       width: 100%;
-      //max-width: 700px;
       display: flex;
       flex-direction: column;
-    //  justify-content: center;
       line-height: 1.1;
       width: 100%;
       height: 100vh;
-      & > div,
-      & > div span {
-        font-weight: 500;
-        font-size: 5vmax;
+      & > div {
         margin: auto;
         width: 100%;
-      }
-      & > div {
-        //animation: name duration timing-function delay iteration-count direction fill-mode;
-        animation: wideText 1s cubic-bezier(1,0,.25,1) ;
-        animation-fill-mode: forwards;
+        position: relative;
+        & > span {
+          width: fit-content;
+          font-weight: 500;
+          font-size: 5vmax;
+          position: absolute;
+          left: 50%;
+          transform: translateX(-50%);
+          &.left {
+            animation: driftLeft 1s cubic-bezier(1, 0, 0.25, 1);
+            animation-fill-mode: forwards;
+          }
+          &.right {
+            animation: driftRight 1s cubic-bezier(1, 0, 0.25, 1);
+            animation-fill-mode: forwards;
+          }
+        }
+        &:nth-child(1) > span {
+          animation-delay: 1.1s;
+        }
+        &:nth-child(2) > span {
+          animation-delay: 1.2s;
+        }
+        &:nth-child(3) > span {
+          animation-delay: 1.3s;
+        }
+        &:nth-child(4) > span {
+          animation-delay: 1.35s;
+        }
+        &:nth-child(5) > span {
+          animation-delay: 1.25s;
+        }
+        &:nth-child(6) > span {
+          animation-delay: 1.15s;
+        }
       }
       .focusedText {
         background-color: $white;
         color: $black;
+        font-weight: 500;
+        font-size: 5vmax;
       }
       .left {
         text-align: left;
@@ -41,16 +68,15 @@
       .center {
         text-align: center;
       }
-      .containBox{
-          display: flex;
-          flex-direction: row;
-          justify-content: space-between;
-
+      .containBox {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
       }
     }
   }
   .projects {
-      padding: 50px 1em;
+    padding: 50px 1em;
     z-index: 11;
     //padding-top: 100vh;
     position: relative;
@@ -71,18 +97,18 @@
       background: linear-gradient(180deg, transparent, $black);
       pointer-events: none;
     }
-    .alert{
-        font-size: 5vmax;
-        font-weight: 200;
+    .alert {
+      font-size: 5vmax;
+      font-weight: 200;
     }
     a {
-        direction: ltr;
-        color:$black;
-        .phone{
-            background-color: $white;
-            font-size: 1.5vmax;
-            padding: 0 1em;
-        }
+      direction: ltr;
+      color: $black;
+      .phone {
+        background-color: $white;
+        font-size: 1.5vmax;
+        padding: 0 1em;
+      }
     }
   }
 }
