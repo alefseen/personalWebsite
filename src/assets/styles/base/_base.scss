@@ -9,61 +9,18 @@ body {
   font-size: 100%;
   margin: 0;
   font-size: $bodySize;
-  color: $primaryText;
+  color: $white;
   font-weight: 400;
-}
-
-a {
-  text-decoration: none;
-  color: $primaryColor;
-  &:hover {
-    color: darken($primaryColor, 0.3);
-  }
-  &:visited {
-    color: lighten($primaryColor, 0.3);
-  }
+  background-color: $black;
 }
 
 .light {
-  color: $primaryWhite;
+  color: $white;
 }
 .dark {
-  color: $primaryColor;
+  color: $black;
 }
 
-button {
-  i{
-    color: inherit !important;
-    vertical-align: middle;
-  }
-  border: none;
-  border-radius: $buttonBorderRadius;
-  padding: 5px 15px;
-  transition: $transitionTime;
-  &.primary {
-    color: $primaryWhite;
-    background: $primaryColor;
-    &:hover{
-      background: darken($color: $primaryColor, $amount: 10);
-    }
-    &.light {
-      color: $primaryColor;
-      background: $primaryWhite;
-      &:hover{
-        color: darken($color: $primaryColor, $amount: 10);
-      }
-    }
-  }
-  &.flat {
-    background: none;
-    &.dark:hover{
-      color: darken($color: $primaryColor, $amount: 10);
-    }
-    &.light:hover{
-      color: darken($color: $primaryWhite, $amount: 10);
-    }
-  }
-}
 
 .d-none {
   display: none !important;

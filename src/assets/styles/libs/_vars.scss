@@ -4,11 +4,8 @@ $tabletBreakPoint: 680px;
 $desktopBreakPoint: 1080px;
 
 /* colors */
-$primaryColor: #5b61ff;
-$primaryText: #333333;
-$primaryWhite:#fff;
-$seconderyWhite: #fafafa;
-$seconderyText:#777777;
+$black:#000;
+$white:#eee;
 /* typography */
 $defaultFont:'Vazir';
 $bodySize:16px;
@@ -28,7 +25,6 @@ $normalLineHeight: 1.5;
 $transitionTime:.5s;
 
 :export{
-    primaryColor:$primaryColor;
-    seconderyWhite:$seconderyWhite;
-    primaryWhite:$primaryWhite;
+    blcak:$black;
+    white:$white;
 }

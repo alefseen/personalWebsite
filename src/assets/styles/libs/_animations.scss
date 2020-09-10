@@ -1,3 +1,11 @@
+@keyframes wideText {
+  from {
+    max-width: 700px;
+  }
+  to {
+    max-width: 100%;
+  }
+}
 @keyframes moveIn {
   from {
     transform: translateX(100%);
