@@ -55,6 +55,11 @@
     //padding-top: 100vh;
     position: relative;
     background-color: $black;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
     &::before {
       position: absolute;
       content: "";
@@ -65,6 +70,19 @@
       height: 80px;
       background: linear-gradient(180deg, transparent, $black);
       pointer-events: none;
+    }
+    .alert{
+        font-size: 5vmax;
+        font-weight: 200;
+    }
+    a {
+        direction: ltr;
+        color:$black;
+        .phone{
+            background-color: $white;
+            font-size: 1.5vmax;
+            padding: 0 1em;
+        }
     }
   }
 }

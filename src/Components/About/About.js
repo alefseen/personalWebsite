@@ -1,6 +1,6 @@
 import React from "react";
 import "./About.scss";
-import Typed from "react-typed";
+//import Typed from "react-typed";
 
 function About() {
   return (
@@ -8,7 +8,7 @@ function About() {
         <div className="introContent">
         <div className="backText">
         <div className="left">
-          من الف سین هستم
+          من امیر سلطانیان هستم
         </div>
         <div className="right">توسعه دهنده نرم افزار</div>
         <div className="right">بزرگ شده توی کوچه های</div>
@@ -19,56 +19,8 @@ function About() {
       
         </div>
      <div className="projects">
-     salam
-        <br/>
-        salam
-        <br/>
-        salam
-        <br/>
-        salam
-        <br/>   salam
-        <br/>
-        salam
-        <br/>
-        salam
-        <br/>
-        salam
-        <br/>   salam
-        <br/>
-        salam
-        <br/>
-        salam
-        <br/>
-        salam
-        <br/>   salam
-        <br/>
-        salam
-        <br/>
-        salam
-        <br/>
-        salam
-        <br/>   salam
-        <br/>
-        salam
-        <br/>
-        salam
-        <br/>
-        salam
-        <br/>   salam
-        <br/>
-        salam
-        <br/>
-        salam
-        <br/>
-        salam
-        <br/>   salam
-        <br/>
-        salam
-        <br/>
-        salam
-        <br/>
-        salam
-        <br/>
+     <span className="alert">به زودی تکمیل خواهم شد!</span>
+     <a href="tel:+989388856602"><span className="phone">+989388856602</span></a>
       </div>
     </div>
   );
