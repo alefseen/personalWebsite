@@ -5,13 +5,18 @@
   "homepage": "https://alefseen.ir",
   "dependencies": {
     "axios": "latest",
+    "bezier-easing": "^2.1.0",
+    "gsap": "^3.5.1",
     "node-sass": "^4.13.0",
     "react": "^16.11.0",
     "react-document-meta": "^3.0.0-beta.2",
     "react-dom": "^16.11.0",
+    "react-gsap": "^2.2.1",
     "react-icofont": "^1.0.19",
     "react-router-dom": "^5.1.2",
     "react-scripts": "3.2.0",
+    "react-scroll-trigger": "^0.6.9",
+    "react-social-icons": "^4.1.0",
     "react-typed": "^1.2.0"
   },
   "scripts": {
